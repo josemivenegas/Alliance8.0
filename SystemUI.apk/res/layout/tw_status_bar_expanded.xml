@@ -21,10 +21,10 @@
                             <com.android.systemui.statusbar.policy.ToggleSlider android:id="@id/auto_brightness" android:layout_width="fill_parent" android:layout_height="fill_parent" systemui:text="@string/status_bar_settings_auto_brightness_label" />
                         </FrameLayout>
                     </LinearLayout>
-                    <View android:background="#ff091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <View android:background="#00091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
                 </LinearLayout>
-                <LinearLayout android:orientation="vertical" android:id="@id/noNotificationsTitle" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                    <TextView android:textSize="@dimen/status_bar_expanded_notification_category_text_size" android:textColor="@color/notification_category_color" android:gravity="left|center" android:id="@id/noNotificationsText" android:paddingLeft="11.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_expanded_notification_category_height" android:text="@string/status_bar_no_notifications_title" />
+                <LinearLayout android:orientation="vertical" android:id="@id/noNotificationsTitle" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                    <TextView android:textSize="@dimen/status_bar_expanded_notification_category_text_size" android:textColor="@color/notification_category_color" android:gravity="left|center" android:id="@id/noNotificationsText" android:paddingLeft="11.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/status_bar_no_notifications_title" />
                 </LinearLayout>
                 <LinearLayout android:orientation="vertical" android:id="@id/onGoingCart" android:background="#ff293945" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_expanded_notification_category_height">
                     <TextView android:textSize="@dimen/status_bar_expanded_notification_category_text_size" android:textColor="@color/notification_category_color" android:gravity="left|center" android:id="@id/onGoingNotificationText" android:paddingLeft="11.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/status_bar_ongoing_events_title" />
